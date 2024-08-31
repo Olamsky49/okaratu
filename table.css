@@ -1,0 +1,59 @@
+*{
+    background-color: #fb8e6a;
+    width: 90%;
+}
+
+table{
+width: 100%;
+}
+
+li{
+    color: #451e61;
+}
+
+.htxt{
+    font-size: 20px;
+    color: #451e61;
+}
+
+h1{
+  color: #451e61;
+}
+
+table, th, td  {
+    border: 0.2px solid #451e61;
+  }
+
+  th{
+    font-size: 20px;
+    color: #451e61;
+    height: 70px;
+    background-color: #04AA6D;
+    
+  }
+
+  td{
+    color: #451e61;
+    margin-right: 0.3px;
+    height: auto;
+	display: flex;
+  text-align: left;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+
+  @media screen and (min-width: 50rem) 
+	.rev {
+		max-width: 700px;
+		margin-inline: auto;
+		border: 2px solid;
+		padding: 10px;
+	}
+	td {
+		display: table-cell;
+		height: 30px;
+	}
